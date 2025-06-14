@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY RESUME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .navbar {
+            background-color: #810052;
+            overflow: hidden;
+            display: flex;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #3b0537;
+            
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: relative;
+            background-color: #000000;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+        }
+            .dropdown:hover .dropdown-content {
+             display: block;
+             background-color: #d35de5;
+        } 
+        .dropdown-content a {
+            color: rgb(109, 32, 100);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content b {
+            color: rgb(109, 32, 100);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #2a0a22;
+        }
+        .dropdown-content b:hover {
+            background-color: #2a0a22;
+        }
+         header {
+            background-color: #fe82fe;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            background-image: url('https://wallpaperaccess.com/full/8351171.gif');
+            background-size: cover;
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
+       
+        ul {
+           position: -webkit-sticky; /* Safari */
+           position: sticky;
+            top: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #3e1540;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #904caf;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #af4c99;
+            color: white;
+            position: hover;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #914caf;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+       
+    <header>
+        <h1>Nur Qystina Natasya Binti Suzali</h1>
+        <p>Resume</p>
+        <picture class="profile-picture">
+            <img src="c:\Users\User\Pictures\photo_2025-05-08_14-38-57.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%;">
+    </header>
+    <div class="container">
+          <!-- Navigation Bar -->
+        <div class="navbar">
+            <ul>
+                <a href="sample 1.html">Home</a>
+                <a href="sample 1.html">Education</a>
+                <a href="sample 2.html">Qualifications</a>
+                <a href="sample 2.html">Experience</a>
+                <a href="#contact">Contact</a> 
+             <div class="dropdown">
+                <button class="dropbtn">More</button> 
+                <div class="dropdown-content">
+                    <a href="#Achievement">Achievements</a>   
+                   
+                    <a href="sample 4.html">References</a>
+                    <a href="sample 4.html">My Skill</a>
+                    <a href="sample 5.html">Activities</a>
+                    <a href="sample 5.html">Languages profiency</a>
+            </ul>
+                </div>
+        
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+           <form action="mailto:your email" method="post" enctype="text/plain">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
+    <p>For more information, you can contact me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:2024281884@student.uitm.edu.my">2024281884@student.uitm.edu.my</a>
+
+        <div class="Achievements" id="Achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Achievement 1: Created tailored research guides for 20+ academic departments, increasing usage by 40%.</li>
+                <li>Achievement 2: Co-hosted interdisciplinary workshops with academic departments and career services</li>
+                <li>Achievement 3: Developed an online information literacy module now required for all first-year students.</li>
+            </div>
+        </div>
+    </div>
+</body>
+    <footer>
+        <p>&copy; 2025 Nur Qystina Natasya Binti Suzali. All rights reserved.</p>
+</body>
+</html>
